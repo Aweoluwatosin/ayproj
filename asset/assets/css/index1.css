@@ -1,0 +1,96 @@
+@media screen and (max-width: 990px) {
+    .aheader1 .icon {
+        display:inline;
+      }
+    .aheader1 a:not(:last-child) {display: none;}
+    .aheader1 a.icon{
+      float: right;
+      display:show;
+      font-size: 30px;
+      margin-top:-30px;
+      color:#eb7f58;
+    }
+  }
+  
+  @media screen and (max-width: 990px) {
+    .aheader1.responsive {position: relative;}
+    .aheader1.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0px;
+      
+    }
+    .aheader1.responsive a {
+      float: none;
+      display:block;
+      text-align:left;
+      font-size:25px;
+      text-decoration: none;
+      height:30px;
+      
+    }
+  }
+  @media screen and (max-width: 990px) {
+      .header{
+        position:fixed;
+        width: 100%;
+        left:0px;
+        top:0px;
+        overflow:hidden;
+        background: #F5F5F5;
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.17);
+        display:show; 
+    }
+   .logo{
+     margin-top: 30px;
+     font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    color: #212429;
+   }
+   .logo a{
+       text-decoration: none;
+       font-size:30px;
+   }
+   .wrapper{
+    height:550px;
+    background-image: url(collov-home-design-js8AQlw71HA-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    margin-left: 0px;
+    
+    
+   }
+   .aheader2{
+     margin-left:0%;
+     width:10%;
+     position:sticky;
+   }
+   .searchbar{
+    width:100%;
+    height: 40px;
+    margin-top:20%;
+    background: #E5E5E5;
+    border: 1px solid rgba(170, 183, 198, 0.31);
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: inline;
+}.search{
+margin-top:24% ;margin-left:-8%;
+  }
+
+  .aheader3{
+    position:fixed;
+   font-size:25px; 
+   font-family: Cera Pro;
+   font-style: normal;
+   font-weight: bold;
+   margin-top:400px;
+   margin-left:40%;
+  }
+  .aheader3 a{
+    color:#eb7f58;
+    text-decoration:none;
+  }
+}
