@@ -20,6 +20,7 @@
     position: center;
     display:flex;
     margin-top:0%;
+    width:100%;
    }
    .wrappertext{
     flex:1;
@@ -567,4 +568,181 @@
       line-height: 180.2%;
       color: #FFFFFF;
       }
+    /*.....sellart......*/
+    .swrapper{
+      width:100%;
+      height:120%;
+      left: 0px;
+      top: 74px;
+      background: #07213B;
+      }
+      .sw1{
+        margin-top:8px;
+      }
+      .sawtext{
+        width:420px;
+        height: 196px;
+        left: 0px;
+        top: 0px; 
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 68px; 
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 100px 15px;
+      }
+      .sawtext1{
+      width:100%;
+      height: 109px;
+      left: 0px;
+      top: 221px;
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 180.2%;
+      color: #FFFFFF;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin:-50px 15px;
+      }
+      .swimg1{
+        width: 222px;
+        height: 420px;
+        margin-left:100px;
+        margin-top:80px;
+        background-image: url(landing-page-headshot@3x\ 1.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+      }
+      .sw2text{
+width:100%;
+height: 78px;
+margin-top:50px;
+font-family: Cera Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 38px;
+color: #000000;
+padding-left: 100px;
+}
+.sw3{
+  width:100%;
+  height:700px;
+  left: 0px;
+  margin-top:10px;
+  background: #07213B;
+  }
+  .swcol1{
+    margin-left:5%; 
+    margin-top:100px;
+   }
+   .sw3text1{
+    width:400px;
+    height:50px;
+    margin-left:10px;
+    margin-top:30px; 
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 63px;
+    text-align: center; 
+    color: #000000; 
+  }
+ .sw3text2{
+  width:400px;
+  height:100px;
+  left: 0px;
+  top: 77px;
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size:20px;
+  line-height: 140.2%;
+  text-align:center; 
+  color: rgb(179, 178, 178);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin:4px 3px;
+ }
+ .sw5text2{
+  width:400px;
+  height:80px;
+  margin-left:15px;
+  top: 77px;
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size:20px;
+  line-height: 120.2%; 
+  color: rgb(179, 178, 178);
+  flex: none;
+  order: 0;
+ }
+ .btn5{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 21px;
+  width: 178px;
+  height: 50px;
+  margin-left:23%;
+  margin-top:1%;
+  background: #EB7F58;
+  border-radius: 4px;
+  }
+  .sw5img{
+    padding-top: 100px;
+    margin-left: 4%;
+  }
+/*.....painting.......*/
+.pt1{
+  width:100%;
+  height:600px;
+  left: 0px;
+  margin-top:50px;
+  background: #07213B;
+  }
+  .ptext1{
+    width:400px;
+    height: 63px;
+    margin-left:10px;
+    margin-top:30px; 
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size:30px;
+    line-height: 63px;
+    text-align:left; 
+    color: #FFFFFF; 
+  }
+  .pt2text{
+  margin-left:10px;
+  margin-top:10px;
+  font-size:20px;
+}
+.pt2text1{
+  width:100%;
+  height: 38px;
+  padding-top:10px;
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size:20px;
+  line-height: 38px;
+  color: #000000;
+  padding-left:100px;
+  margin-bottom:10px;
+  }
+}
+
 }

@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=EB+Garamond&display=swap');
 @media only screen and (min-width: 1000px){
-    .main {
-        margin-top: 30px; /* Add a top margin to avoid content overlay */
-      }
+  
     .header{
     position:fixed;
     width: 100%;
